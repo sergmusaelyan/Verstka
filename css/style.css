@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.getbtn {
+    border-radius: 0% !important;
+    background-color: #FA902A !important;
+    border: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.inp{
+    border-radius: 0 !important;
+}
+
+.acchead{
+    font-weight: 500;
+}
+
+.bg-muted{
+    background-color: #F8F8F8;
+}
+
+.h-101{
+    height: 100px !important;
+}
+
+.spantext{
+    color: #FA902A;
+    border-bottom: 2px solid;
+    border-color: #FA902A;
+}
+
+.conbtn{
+    background: transparent;
+    border: 1px solid;
+    border-color: #EA4235;
+    color: #EA4235;
+    border-radius: 0% !important;
+}
+
+.disbtn{
+    background: transparent;
+    border: 1px solid;
+    border-color: #732DCB;
+    color: #732DCB;
+    border-radius: 0% !important;
+}
+
+.googleicon{
+    position: absolute;
+    left: 55%;
+    margin-top: 5px;
+}
+
+.discordicon{
+    position: absolute;
+    left: 55%;
+    margin-top: 5px;
+}
+
+.passeye{
+    position: absolute;
+    right: 5%;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.passeye1{
+    position: absolute;
+    right: 5%;
+    margin-top: -32px;
+    cursor: pointer;
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .googleicon{
+        left: 10%;
+    }
+    
+    .discordicon{
+        left: 10%;
+    }
+
+    .passeye{
+        right: 7%;
+    }
+
+    .passeye1{
+        right: 7%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .passeye{
+        right: 10%;
+    }
+
+    .passeye1{
+        right: 10%;
+    }
+}
